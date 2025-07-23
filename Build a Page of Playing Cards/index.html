@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playing Cards</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main id="playing-cards">
+      <div class="card">
+        <div class="left letter">
+          A
+          <div class="sub">♠</div>
+        </div>
+        <div class="middle">♠</div>
+        <div class="right letter">
+          A
+          <div class="sub">♠</div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="card">
+        <div class="left letter">
+          2
+          <div class="sub">♣</div>
+        </div>
+        <div class="middle">
+          ♣
+          <div class="dual">♣</div>
+        </div>
+        <div class="right letter">
+          2
+          <div class="sub">♣</div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="card three">
+        <div class="left letter">
+          3
+          <div class="sub">♥</div>
+        </div>
+        <div class="middle">
+          ♥
+          <div>♥</div>
+          <div class="dual">♥</div>
+        </div>
+        <div class="right letter">
+          3
+          <div class="sub">♥</div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="card four">
+        <div class="left letter">
+          4
+          <div class="sub">♣</div>
+        </div>
+        <div class="middle fourUp">
+          ♣♣
+          <div class="dual fourDown">♣♣</div>
+        </div>
+        <div class="right letter">
+          4
+          <div class="sub">♣</div>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="card five">
+        <div class="left letter">
+          5
+          <div class="sub">♦</div>
+        </div>
+        <div class="middle">
+          <div class="five">
+            ♦♦
+            <div class="dual fiveMiddle">♦</div>
+            <div class="dual fiveDown">♦♦</div>
+          </div>
+        </div>
+        <div class="right letter">
+          5
+          <div class="sub">♦</div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+body{ background-color: #d8bfd8; } .card{ padding: 7px; margin: 20px;
+background-color: #fff; height: 350px; width: 250px; display: flex;
+justify-content: space-between; border: 1px solid black; border-radius: 10px;
+box-shadow: 10px black; } #playing-cards{ display: flex; justify-content:
+center; flex-wrap: wrap; gap: 20px } .letter{ font-size: 30px; } .sub{
+font-size: 32px; } .dual{ rotate: 180deg; } .three{ color: red } .five{ color:
+red; } .fiveMiddle{ display: flex; justify-content: center; align-item: center;
+} .left{ align-self: flex-start; } .middle{ font-size: 80px; align-self: center;
+display: flex; flex-direction: column; } .right{ align-self: flex-end; rotate:
+180deg; }

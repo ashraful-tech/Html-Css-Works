@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.color-grid {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.color-box {
+    width: 125px;
+    height: 125px;
+}
+
+.color1 {
+    background-color: #00003B;
+
+}
+
+.color2 {
+    background-color: rgb(255, 0, 0);
+}
+
+.color3 {
+    background-color: blue;
+}
+
+.color4 {
+    background-color: hsl(120, 100%, 50%);
+}
+
+.color5 {
+    background-color: yellow;
+}

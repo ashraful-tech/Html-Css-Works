@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(205, 209, 206);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.box {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.todo-list {
+    padding: 0;
+}
+
+.item {
+    background-color: rgb(115, 250, 149);
+    list-style-type: none;
+    margin: 20px;
+    padding: 30px;
+}
+
+
+.sub-item {
+    padding: 15px 0 15px 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+
+}
+
+a:active {
+    color: red;
+
+}
+
+a:focus {
+    border: 1px solid black;
+}
+
+a:visited {
+    color: green;
+}
