@@ -27,4 +27,10 @@ HTML, CSS
 - Clean and readable code examples
 
 ##Live Links
-example: https://ashraful-tech.github.io/Html-Css-Works/[folder_name]
+example: 
+1) Blog post card: https://ashraful-tech.github.io/Html-Css-Works/Blog-Post-Card/
+2) Label: https://ashraful-tech.github.io/Html-Css-Works/Buid-a-Nutration-Label/
+3) Email page: https://ashraful-tech.github.io/Html-Css-Works/Buid-a-confidential-email-page/
+4) Cat page: https://ashraful-tech.github.io/Html-Css-Works/Build-a-Cat-page/
+5) Playing Cards: https://ashraful-tech.github.io/Html-Css-Works/Build-a-Page-of-Playing-Cards/
+6) To-Do list: https://ashraful-tech.github.io/Html-Css-Works/Build-a-To-Do-List/
