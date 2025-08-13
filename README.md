@@ -15,7 +15,7 @@ I'm a full stack developer...
 
 ## Tech Stack
 
-HTML, CSS
+HTML, CSS, JavaScript, React
 
 ## Features
 
@@ -23,8 +23,11 @@ HTML, CSS
 - Semantic HTML structures
 - Clean and readable code examples
 
-##Live Links
+## Live Links
+# A. React: https://weatherapp-ashraful-tech.netlify.app/
+# B. JavaScript: https://ashraful-tech.github.io/Html-Css-Works/Alert-JS/
 
+# C. Html, CSS:
 1. Blog post card: https://ashraful-tech.github.io/Html-Css-Works/Blog-Post-Card/
 2. Label: https://ashraful-tech.github.io/Html-Css-Works/Buid-a-Nutration-Label/
 3. Email page: https://ashraful-tech.github.io/Html-Css-Works/Buid-a-confidential-email-page/
